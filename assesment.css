@@ -1,0 +1,80 @@
+main{
+    margin: 0 auto;
+    max-width:1000px;
+    width: 100%;
+
+}
+
+.container{
+    display: flex;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.maincontents{
+    border: 1px solid darkgray;
+    max-width: 700px;
+    width: 70%;
+}
+
+.subcontents{
+    border: 1px solid darkgray;
+    max-width: 300px;
+    width: 30%;
+}
+
+#shindan{
+    margin: 0 auto;
+    border-top: 25px solid blue;
+    padding: 20px;
+    animation: gradation 10s 0s linear infinite;
+    background-color: #04A6EB;
+    color: white;
+
+}
+
+@-webkit-keyframes gradation{
+    0%{
+        border-top: 25px solid blue;
+    }
+    25%{
+        border-top: 25px solid red;
+    }
+    50%{
+        border-top: 25px solid yellow;
+    }
+    75%{
+        border-top: 25px solid green;    
+    }
+    100%{
+        border-top: 25px solid blue;
+    }
+}
+
+p{
+   line-height: 1.5em; 
+   font-size: 1.2em;
+}
+
+#yourname{
+    height: 20px;
+}
+
+#namesubmit{
+    margin-left: 10px;
+    padding: 5px 20px;
+    background-color: #337AB7;
+    border-style: none; 
+    color: white;
+}
+
+#result-area {
+background-color: lightgray;
+color: black;
+margin-top: 30px;
+}
+
+blockquote{
+    background-color: lightgrey;
+    padding: 10px;
+}
