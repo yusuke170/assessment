@@ -35,6 +35,7 @@ const answer = [
         '{userName}は鳥です',
         '{userName}は犬です',
         '{userName}は猪です'
+    
 ];
 
 
